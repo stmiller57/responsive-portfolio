@@ -17,27 +17,3 @@ h4 {
     margin-top: 10px;
     padding: 2px;
 }
-
-.fa {
-    padding: 20px;
-    font-size: 50px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 15px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-    border: black;
-  }
-
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
