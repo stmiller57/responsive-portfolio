@@ -11,6 +11,6 @@ I moved onto the "portfolio" page next, copying the navbar and footer from my "a
 The final page is a contact form. I again copied the navbar and footer to add it to the page, giving my site a consistent look and links that work. I then used Boostrap to find a basic form content area and adjusted the text to fit my needs.
 
 ### Portfolio links
-https://stmiller57.github.io/responsive-portfolio
-https://stmiller57.github.io/responsive-portfolio/portfolio.html
-https://stmiller57.github.io/responsive-portfolio/contact.html
+1. https://stmiller57.github.io/responsive-portfolio
+2. https://stmiller57.github.io/responsive-portfolio/portfolio.html
+3. https://stmiller57.github.io/responsive-portfolio/contact.html
