@@ -12,23 +12,24 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- Navbar for all three pages of portfolio — about, portfolio, contact -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Stephen Miller</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">About</a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
-    </div>
-</nav>
 
 <body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="#">Stephen Miller</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <a class="nav-item nav-link" href="#coding-portfolio">Coding portfolio</a>
+                <a class="nav-item nav-link" href="#recent-writing">Recent writing</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- One-row container for photo and bio -->
     <div class="container">
         <div class="row">
@@ -41,31 +42,96 @@
                     <div class="col-sm-8">
                         <div class="card-body">
                             <h3 id="About" class="card-title">About Stephen</h3>
-                            <p class="card-text">Stephen Miller is a veteran writer and editor currently
-                                studying
-                                web development. He spent the first 20 years of his professional life as a
-                                sportswriter,
+                            <p class="card-text">Stephen Miller is a junior front-end web developer pursuing full-stack
+                                certification from the Penn LPS coding bootcamp. He spent 20 years as a journalist,
                                 covering everything from the Philadelphia Phillies to college basketball to high school
-                                football.
-                                He
-                                has never worked for President Trump despite sharing his name with a member of the
-                                President's administration.</p>
+                                football.</p>
                             <p>Stephen owns a B.A. in English from Saint Joseph's University, where he concentrated
-                                his
-                                studies in writing. He graduated with honors from the school's honors program.</p>
-                            <p>In his spare time, Stephen loves to watch sports, read, listen to music,
-                                and spend time with his wife and two boys. He somehow ended up a fan of the
-                                Philadelphia
-                                Eagles, New York Mets and Boston Celtics. Ask him if you want the whole story.</p>
+                                his studies in writing. He graduated with honors from the school's honors program.</p>
+                            <p>In his spare time, Stephen loves to watch sports, read, listen to music, and spend time
+                                with his wife and two boys. He somehow ended up a fan of the Philadelphia Eagles, New
+                                York Mets and Boston Celtics. Ask him if you want the whole story.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- One row container with a heading for recent writing -->
+    <!-- One row container with a heading for web development projects -->
+    <div class="container">
+        <div id="coding-portfolio" class="row">
+            <div class="col-sm">
+                <h4>Coding portfolio</h4>
+            </div>
+        </div>
+    </div>
+    <!-- Three-row container with links to coding projects -->
     <div class="container">
         <div class="row">
+            <div class="col-sm">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="assets/g-and-a header.png" class="card-img-top"
+                            alt="Gluttons and Alcoholics title page">
+                        <div class="card-body">
+                            <h5 class="card-title">Gluttons and Alcoholics</h5>
+                            <p class="card-text">With people staying home during the COVID-19 pandemic, we wanted to
+                                design an application where users could search for meals by ingredient and dietary
+                                requirements. Each meal is paired with a random drink.</p>
+                            <p>This project was built with the UIkit CSS framework, JavaScript and jQuery. We used the
+                                EDAMAM Recipe API and the CocktailDB API</p>
+                            <a href="https://brianlevin.github.io/gluttons-and-alcoholics/">Deployed project</a>
+                            <br>
+                            <a href="https://github.com/BrianLevin/gluttons-and-alcoholics">Github repo</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="assets/Weather dashboard.png" class="card-img-top" alt="Weather dashboard application">
+                    <div class="card-body">
+                        <h5 class="card-title">What's the Weather</h5>
+                        <p class="card-text">This is a simple weather dashboard to search for current weather conditions
+                            and a five-day forecast by city using several OpenWeather APIs. It was built using
+                            Bootstrap, JavaScript and jQuery</p>
+                        <p>After entering a city and clicking the search button, the box to the right is filled with
+                            current weather conditions. Fields include the current day's temperature, humidity, wind
+                            speed and UV index. An icon for the current day's weather is also presented.</p>
+                        <p>Below those, a 5-day forecast appears that includes the temperature and humidity for each day
+                            along with a weather icon.</p>
+                        <a href="https://stmiller57.github.io/whats-the-weather">Deployed project</a>
+                        <br>
+                        <a href="https://github.com/stmiller57/whats-the-weather">Github repo</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="assets/Password-generator.png" class="card-img-top" alt="Password Generator">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">
+                            This is a basic password generator built with HTML and CSS. The user is asked to select a
+                            password length of 8-128 characters.</p>
+                        <p>She is then asked to decide if she wants lowercase, uppercase, numeric and special
+                            characters. Each answer helps determine the character set used to generate a random
+                            password.</p>
+                        <a href="https://stmiller57.github.io/password-generator/">Deployed project</a>
+                        <br>
+                        <a href=https://github.com/stmiller57/password-generator">Github repo</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- One row container with a heading for recent writing -->
+    <div class="container">
+        <div id="recent-writing" class="row">
             <div class="col-sm">
                 <h4>Recent writing</h4>
             </div>
@@ -133,23 +199,25 @@
             </div>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <!-- footer with Copyright -->
+    <footer class="py-4 bg-success text-white">
+        <div class="container text-center">
+            <large>&copy Copyright by Stephen Miller</large>
+        </div>
+    </footer>
+
 </body>
-<!-- footer with Copyright -->
-<footer class="py-4 bg-primary text-white">
-    <div class="container text-center">
-        <large>&copy Copyright by Stephen Miller</large>
-    </div>
-</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
 
 </html>
