@@ -12,5 +12,3 @@ The final page is a contact form. I again copied the navbar and footer to add it
 
 ### Portfolio links
 1. https://stmiller57.github.io/responsive-portfolio
-2. https://stmiller57.github.io/responsive-portfolio/portfolio.html
-3. https://stmiller57.github.io/responsive-portfolio/contact.html
