@@ -3,7 +3,7 @@ body {
 }
 
 #site-background {
-    background-color: rgb(172, 180, 187);
+    background-color: rgb(181, 187, 192);
 }
 
 .py-4 {
@@ -15,7 +15,7 @@ body {
 
 h4 {
     margin-bottom: 15px;
-}
+    text-shadow: 1.5px 1.5px black}
 
 #footer {
     margin-top: 0px;
