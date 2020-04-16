@@ -1,14 +1,20 @@
-# responsive-portfolio
+# Personal portfolio
 ## Project description
-This project called for the creation of a professional portfolio with three related pages — about, portfolio and contact. 
+The original project called for the creation of a professional portfolio with three related pages — about, portfolio and contact. 
 
-I started with the "about" page by using Boostrap to create a navbar and a bio card with my photo and some information about me. I later added a footer. 
+The project has undergone significant revisions since my original homework. Rather than spread my work across three pages, I switched to a single-page format. The headings in the navbar take you to the three main sections of my portfolio site — About, Coding Portfolio and Recent Writing. As someone who codes and writes, I wanted to incorporate both creative pieces of my work life into one site. 
 
-To further spruce up my "about" page, I added a three-card column with links to recent stories I've written for publication. 
+I opted for a green, gray, white and black color scheme for my site. I've also switched to one of Google's fonts, Lato, throughout the project. 
 
-I moved onto the "portfolio" page next, copying the navbar and footer from my "about" page and updating the navbar links with matching text. I used the Bootstrap grid system to do three cards in the top row and two cards in the second row, adding dummy text and photos that will be replaced as I begin to complete projects. 
+## Technologies used
+1. HTML5
+2. Bootstrap
+3. Custom CSS
 
-The final page is a contact form. I again copied the navbar and footer to add it to the page, giving my site a consistent look and links that work. I then used Boostrap to find a basic form content area and adjusted the text to fit my needs.
+## Future development
+My next planned steps include the design and implementation of a logo into my navbar. I also plan to continue tweaking the design in the weeks ahead. I would like to find a way to add the computer languages I have learned in an interesting way. 
 
-### Portfolio links
-1. https://stmiller57.github.io/responsive-portfolio
+### Deployed website
+https://stmiller57.github.io/responsive-portfolio
+
+![ScreenShot](https://raw.githubusercontent.com/stmiller57/password-generator/master/assets/Intro.png)
