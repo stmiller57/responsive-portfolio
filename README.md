@@ -1,4 +1,5 @@
 # Personal portfolio
+![](assets/Portfolio.gif)
 ## Project description
 The original project called for the creation of a professional portfolio with three related pages — about, portfolio and contact. 
 
@@ -17,4 +18,3 @@ My next planned steps include the design and implementation of a logo into my na
 ### Deployed website
 https://stmiller57.github.io/responsive-portfolio
 
-![ScreenShot](assets/Portfolio screenshot.png)
