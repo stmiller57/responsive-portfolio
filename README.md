@@ -17,4 +17,4 @@ My next planned steps include the design and implementation of a logo into my na
 ### Deployed website
 https://stmiller57.github.io/responsive-portfolio
 
-![ScreenShot](https://raw.githubusercontent.com/stmiller57/responsive-portfolio/master/assets/portfolioScreen.png)
+![ScreenShot](assets/Portfolio screenshot.png)
